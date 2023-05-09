@@ -37,12 +37,12 @@ namespace LogBook.View
         {
             // Objeto
             Student student = new Student();
-            student.studentName = txtName.Text;
-            student.ar = txtAr.Text;
-            student.classCode = txtClassCode.Text;
-            student.miniCurriculum = txtMiniCurriculum.Text;
-            student.hobby = txtHobby.Text;
-            MessageBox.Show(student.studentName);
+            student.StudentName = txtName.Text;
+            student.Ar = txtAr.Text;
+            student.ClassCode = txtClassCode.Text;
+            student.MiniCurriculum = txtMiniCurriculum.Text;
+            student.Hobby = txtHobby.Text;
+            //MessageBox.Show(student.StudentName);
         }
     }
 }

@@ -31,9 +31,9 @@
             this.btnLogin = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtClassNumber = new System.Windows.Forms.TextBox();
+            this.txtLoginClassNumber = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtLoginAr = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,18 +65,18 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Número Turma (sem ponto):\r\n";
             // 
-            // txtClassNumber
+            // txtLoginClassNumber
             // 
-            this.txtClassNumber.Location = new System.Drawing.Point(9, 32);
-            this.txtClassNumber.Name = "txtClassNumber";
-            this.txtClassNumber.Size = new System.Drawing.Size(135, 20);
-            this.txtClassNumber.TabIndex = 5;
+            this.txtLoginClassNumber.Location = new System.Drawing.Point(9, 32);
+            this.txtLoginClassNumber.Name = "txtLoginClassNumber";
+            this.txtLoginClassNumber.Size = new System.Drawing.Size(135, 20);
+            this.txtLoginClassNumber.TabIndex = 5;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnLogin);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.txtClassNumber);
+            this.groupBox1.Controls.Add(this.txtLoginAr);
+            this.groupBox1.Controls.Add(this.txtLoginClassNumber);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
@@ -85,12 +85,12 @@
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             // 
-            // textBox1
+            // txtLoginAr
             // 
-            this.textBox1.Location = new System.Drawing.Point(9, 77);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 20);
-            this.textBox1.TabIndex = 5;
+            this.txtLoginAr.Location = new System.Drawing.Point(9, 77);
+            this.txtLoginAr.Name = "txtLoginAr";
+            this.txtLoginAr.Size = new System.Drawing.Size(135, 20);
+            this.txtLoginAr.TabIndex = 5;
             // 
             // LoginView
             // 
@@ -111,8 +111,8 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtClassNumber;
+        private System.Windows.Forms.TextBox txtLoginClassNumber;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtLoginAr;
     }
 }
