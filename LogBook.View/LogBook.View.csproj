@@ -64,6 +64,12 @@
     <Compile Include="FrmDiarioDeBordo.Designer.cs">
       <DependentUpon>FrmDiarioDeBordo.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmDiarioDeBordo.resx">
       <DependentUpon>FrmDiarioDeBordo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogBook.VO\LogBook.VO.csproj">
+      <Project>{bb27602f-e98a-482d-b69c-d712a8849bc9}</Project>
+      <Name>LogBook.VO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

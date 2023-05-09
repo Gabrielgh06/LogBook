@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogBook.DAL
 {
-    public class Student
+    public class StudentDAL
     {
         // Orientação a objetos
         // Classe

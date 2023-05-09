@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogBook.View", "LogBook.Vie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogBook.DAL", "LogBook.DAL\LogBook.DAL.csproj", "{B410F032-89C2-40BB-8C9D-F64F4CA64DBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogBook.VO", "LogBook.VO\LogBook.VO.csproj", "{BB27602F-E98A-482D-B69C-D712A8849BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogBook.BO", "LogBook.BO\LogBook.BO.csproj", "{FD0BF66A-6BAC-4346-A9C8-A0814CCFFD93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B410F032-89C2-40BB-8C9D-F64F4CA64DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B410F032-89C2-40BB-8C9D-F64F4CA64DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B410F032-89C2-40BB-8C9D-F64F4CA64DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB27602F-E98A-482D-B69C-D712A8849BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB27602F-E98A-482D-B69C-D712A8849BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB27602F-E98A-482D-B69C-D712A8849BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB27602F-E98A-482D-B69C-D712A8849BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0BF66A-6BAC-4346-A9C8-A0814CCFFD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0BF66A-6BAC-4346-A9C8-A0814CCFFD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0BF66A-6BAC-4346-A9C8-A0814CCFFD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0BF66A-6BAC-4346-A9C8-A0814CCFFD93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

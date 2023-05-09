@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace LogBook.View
 {
-    public partial class FrmDiarioDeBordo : Form
+    public partial class LoginView : Form
     {
-        public FrmDiarioDeBordo()
+        public LoginView()
         {
             InitializeComponent();
         }
 
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void BtnRegister_Click(object sender, EventArgs e)
-        {
-
+            new FrmAddStudent().Show();
         }
     }
 }

@@ -11,3 +11,7 @@ C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\obj\Debug\Log
 C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\obj\Debug\LogBook.View.pdb
 C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\obj\Debug\LogBook.View.FrmAddStudent.resources
 C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\obj\Debug\LogBook.View.FrmDiarioDeBordo.resources
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\bin\Debug\LogBook.VO.dll
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\bin\Debug\LogBook.VO.pdb
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\obj\Debug\LogBook.View.csproj.CopyComplete
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.View\obj\Debug\LogBook.View.LoginView.resources

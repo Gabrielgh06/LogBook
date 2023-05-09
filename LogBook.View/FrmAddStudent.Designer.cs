@@ -34,12 +34,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.txtHobby = new System.Windows.Forms.TextBox();
+            this.txtMiniCurriculum = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.txtClassCode = new System.Windows.Forms.TextBox();
+            this.txtAr = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,76 +91,77 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.btnRegister);
+            this.groupBox1.Controls.Add(this.txtHobby);
+            this.groupBox1.Controls.Add(this.txtMiniCurriculum);
+            this.groupBox1.Controls.Add(this.txtName);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtClassCode);
+            this.groupBox1.Controls.Add(this.txtAr);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(358, 487);
+            this.groupBox1.Size = new System.Drawing.Size(358, 434);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox1
+            // btnRegister
             // 
-            this.textBox1.Location = new System.Drawing.Point(242, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(105, 20);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.btnRegister.Location = new System.Drawing.Point(136, 402);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(100, 23);
+            this.btnRegister.TabIndex = 2;
+            this.btnRegister.Text = "Cadastrar";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox3
+            // txtHobby
             // 
-            this.textBox3.Location = new System.Drawing.Point(47, 13);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(300, 20);
-            this.textBox3.TabIndex = 1;
+            this.txtHobby.Location = new System.Drawing.Point(9, 252);
+            this.txtHobby.Multiline = true;
+            this.txtHobby.Name = "txtHobby";
+            this.txtHobby.Size = new System.Drawing.Size(338, 144);
+            this.txtHobby.TabIndex = 1;
             // 
-            // textBox6
+            // txtMiniCurriculum
             // 
-            this.textBox6.Location = new System.Drawing.Point(9, 89);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(338, 144);
-            this.textBox6.TabIndex = 1;
+            this.txtMiniCurriculum.Location = new System.Drawing.Point(9, 89);
+            this.txtMiniCurriculum.Multiline = true;
+            this.txtMiniCurriculum.Name = "txtMiniCurriculum";
+            this.txtMiniCurriculum.Size = new System.Drawing.Size(338, 144);
+            this.txtMiniCurriculum.TabIndex = 1;
             // 
-            // button1
+            // txtName
             // 
-            this.button1.Location = new System.Drawing.Point(130, 458);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtName.Location = new System.Drawing.Point(47, 13);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(300, 20);
+            this.txtName.TabIndex = 1;
             // 
-            // textBox5
+            // txtClassCode
             // 
-            this.textBox5.Location = new System.Drawing.Point(100, 39);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(105, 20);
-            this.textBox5.TabIndex = 1;
+            this.txtClassCode.Location = new System.Drawing.Point(100, 39);
+            this.txtClassCode.Name = "txtClassCode";
+            this.txtClassCode.Size = new System.Drawing.Size(105, 20);
+            this.txtClassCode.TabIndex = 1;
             // 
-            // textBox2
+            // txtAr
             // 
-            this.textBox2.Location = new System.Drawing.Point(9, 252);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(338, 144);
-            this.textBox2.TabIndex = 1;
+            this.txtAr.Location = new System.Drawing.Point(242, 39);
+            this.txtAr.Name = "txtAr";
+            this.txtAr.Size = new System.Drawing.Size(105, 20);
+            this.txtAr.TabIndex = 1;
+            this.txtAr.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // FrmAddStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 511);
+            this.ClientSize = new System.Drawing.Size(384, 457);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmAddStudent";
             this.Text = "Cadastrar Estudantes";
@@ -178,11 +179,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.TextBox txtMiniCurriculum;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.TextBox txtClassCode;
+        private System.Windows.Forms.TextBox txtAr;
+        private System.Windows.Forms.TextBox txtHobby;
     }
 }

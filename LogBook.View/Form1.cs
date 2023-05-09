@@ -29,7 +29,7 @@ namespace LogBook.View
 
         private void alunosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmAddStudent().Show();
+            new LoginView().Show();
         }
 
         private void diáriosDeBordoToolStripMenuItem_Click(object sender, EventArgs e)

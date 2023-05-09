@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LogBook.BO
 {
-    public class Class1
+    public class StudentBO
     {
     }
 }

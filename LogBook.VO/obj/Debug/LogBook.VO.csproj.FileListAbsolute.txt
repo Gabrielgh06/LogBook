@@ -1,0 +1,6 @@
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.VO\bin\Debug\LogBook.VO.dll
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.VO\bin\Debug\LogBook.VO.pdb
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.VO\obj\Debug\LogBook.VO.csproj.AssemblyReference.cache
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.VO\obj\Debug\LogBook.VO.csproj.CoreCompileInputs.cache
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.VO\obj\Debug\LogBook.VO.dll
+C:\Users\ALUNO\Desktop\Exercícios Vespertino\LogBook\LogBook.VO\obj\Debug\LogBook.VO.pdb
